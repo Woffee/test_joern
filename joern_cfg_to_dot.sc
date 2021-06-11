@@ -208,6 +208,7 @@ def toDot(graph: ScalaGraph): String = {
 @main def main(cpgFile: String): String = {
   loadCpg(cpgFile)
   toDot(cpg.graph)
+//  toDot(cpg.ScalaGraph)
 }
 
 
