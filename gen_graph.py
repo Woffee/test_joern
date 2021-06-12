@@ -7,8 +7,8 @@ if not os.path.exists("tmp/"):
     os.makedirs("tmp/")
 
 def generate_prolog():
-    joern = "/opt/joern"
-    joern_parse = "/opt/joern-parse"
+    joern = "/opt/joern/joern"
+    joern_parse = "/opt/joern/joern-parse"
 
     caller_tree = ""
     short_filename = "caller_and_callee.c"
